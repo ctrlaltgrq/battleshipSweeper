@@ -1,0 +1,17 @@
+BattleshipSweeper rules:
+
+Torpedo shooting : FIRE <coordinate>
+	pl.: FIRE A12
+
+Get table (current state): TABLE.
+
+'X' marks the hits
+'-' mark the unsuccessful attempts
+
+Get rules: RULES
+When the players shut all the ships the game is over.
+After that we can begin a new game or quit
+	New Game Y or YES
+	End of the game N or NO
+
+You can quit with the QUIT command.
